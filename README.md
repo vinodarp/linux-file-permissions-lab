@@ -1,43 +1,53 @@
-## Linux File Permissions Management
+# Linux File Permissions Management
 
-**Overview:**  
-This project was part of my Cybersecurity coursework and focuses on exploring Linux file system navigation and permission management using command-line tools. Through hands-on exercises, I practiced core commands used in everyday cybersecurity roles and learned how permissions impact system security.
-
----
-
-### Objectives
-
-- Learn and apply Linux commands to navigate directories.
-- View and interpret file contents using basic commands.
-- Understand and modify file permissions using `chmod`.
-- Analyze permission structures to ensure secure file access.
+## Project Overview
+This project was part of my Cybersecurity coursework and focuses on exploring Linux file system navigation and permission management using command-line tools. Through hands-on exercises, I practiced essential commands used in everyday cybersecurity tasks and learned how permissions impact system security.
 
 ---
 
-### Key Commands Used
+## Objectives
 
-| Command | Purpose |
-|---------|---------|
-| `cd`    | Change directory |
-| `pwd`   | Print working directory |
-| `ls`    | List files and directories |
-| `cat`, `head` | View file contents |
-| `chmod` | Change file permissions |
+- Navigate Linux directory structures using terminal commands.
+- Locate and inspect files using tools like `cat` and `head`.
+- Understand and apply permission modifications with `chmod`.
+- Interpret permission strings using `ls -la`.
 
 ---
 
-### Highlights
+## Key Commands Used
 
-- Navigated through nested directories and located specific user files.
-- Viewed and interpreted the contents of employee records.
-- Applied permission changes using `chmod` to restrict group access to sensitive files.
-- Confirmed permission changes with `ls -la`.
+| Command | Description |
+|---------|-------------|
+| `cd`    | Change directories |
+| `pwd`   | Show current directory |
+| `ls`    | List directory contents |
+| `cat`, `head` | Display file content |
+| `chmod` | Change file/directory permissions |
 
 ---
 
-### Sample Output
+## Sample Exercise
 
 ```bash
+cd /home/analyst/reports/users
+cat Q1_added_users.txt
 chmod g-r project_m.txt
 chmod o-w project_k.txt
 ls -la
+```
+
+These steps demonstrated how to read user data and restrict group/other access to files.
+
+---
+
+## Summary
+
+Through this project, I improved my practical knowledge of the Linux operating system. I became more confident with terminal navigation, permission management, and interpreting access controls — all essential skills for roles in cybersecurity and systems administration.
+
+---
+
+## Contact
+
+- **Location:** Dublin, Ireland  
+- **Email:** vinicius99ie@gmail.com  
+- **LinkedIn:** [linkedin.com/in/viniciusalprado](https://linkedin.com/in/viniciusalprado)
