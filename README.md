@@ -1,53 +1,38 @@
-# Linux File Permissions Management
+# Using Linux Commands to Manage File Permissions
 
-## Project Overview
-This project was part of my Cybersecurity coursework and focuses on exploring Linux file system navigation and permission management using command-line tools. Through hands-on exercises, I practiced essential commands used in everyday cybersecurity tasks and learned how permissions impact system security.
-
----
-
-## Objectives
-
-- Navigate Linux directory structures using terminal commands.
-- Locate and inspect files using tools like `cat` and `head`.
-- Understand and apply permission modifications with `chmod`.
-- Interpret permission strings using `ls -la`.
+## 📝 Project Overview
+This project was part of my Cybersecurity course and focuses on exploring essential Linux commands used to navigate directories, read files, and manage file permissions. The goal was to gain hands-on experience with system-level command-line tools that are crucial in cybersecurity operations.
 
 ---
 
-## Key Commands Used
-
-| Command | Description |
-|---------|-------------|
-| `cd`    | Change directories |
-| `pwd`   | Show current directory |
-| `ls`    | List directory contents |
-| `cat`, `head` | Display file content |
-| `chmod` | Change file/directory permissions |
+## 🔍 What I Did
+- Navigated the Linux file system using commands like `cd`, `pwd`, and `ls`
+- Viewed file contents with `cat` and `head`
+- Managed file permissions using `chmod`, applying permission changes for owner and group
+- Practiced restricting access to files by removing read and write rights based on user roles
 
 ---
 
-## Sample Exercise
-
-```bash
-cd /home/analyst/reports/users
-cat Q1_added_users.txt
-chmod g-r project_m.txt
-chmod o-w project_k.txt
-ls -la
-```
-
-These steps demonstrated how to read user data and restrict group/other access to files.
+## 🧠 Key Takeaways
+- Reinforced command-line fluency in Linux
+- Understood how to inspect, analyze, and control file access
+- Learned how to structure permission changes effectively using `chmod` syntax
 
 ---
 
-## Summary
-
-Through this project, I improved my practical knowledge of the Linux operating system. I became more confident with terminal navigation, permission management, and interpreting access controls — all essential skills for roles in cybersecurity and systems administration.
+## 📎 Attached File
+[linux_file_permissions_vinicius.pdf](./linux_file_permissions_vinicius.pdf) – Report describing Linux permission management, key commands used, and practical examples applied in the lab
 
 ---
 
-## Contact
+## 🛠 Tools & Technologies
+- Linux Terminal  
+- chmod, ls, cd, pwd, cat, head  
+- File permission model (Owner, Group, Others)
 
-- **Location:** Dublin, Ireland  
-- **Email:** vinicius99ie@gmail.com  
-- **LinkedIn:** [linkedin.com/in/viniciusalprado](https://linkedin.com/in/viniciusalprado)
+---
+
+**Author:** Vinicius Prado  
+📍 Dublin, Ireland  
+🔗 [LinkedIn](https://www.linkedin.com/in/viniciusalprado)  
+📧 [vinicius99ie@gmail.com](mailto:vinicius99ie@gmail.com)
